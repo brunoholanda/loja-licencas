@@ -16,12 +16,11 @@ export default function Footer() {
                 <div className="column">
                     <h3>ATENDIMENTO</h3>
                     <p>
-                        <FaWhatsapp /> Whatsapp: 11 98692-4254 <br />
+                        <FaWhatsapp /> Whatsapp: 83 99815-0712 <br />
                         <span>Dúvidas, suporte e vendas</span>
                     </p>
                     <p>
-                        <FaEnvelope /> E-mail: contato@ninjakeys.com.br <br />
-                        <span>Cotações e Orçamentos</span>
+                        <FaEnvelope /> E-mail: contato@brunoholanda.com <br />
                     </p>
                     <p>
                         <strong>Horário de atendimento</strong><br />
@@ -67,10 +66,10 @@ export default function Footer() {
                 <div className="footer-logo">
                     <img src="ninja-keys-logo.png" alt="Ninja Keys" />
                     <p>
-                        Somos o grupo Ninja Keys! Fornecedores de softwares. Damos 100% de garantia do funcionamento de nossos produtos ou seu dinheiro de volta. Temos produtos vitais e anuais, enviamos de forma digital por e-mail, acompanhando: nota fiscal, licença original, link oficial de download e o passo a passo de validação. Nossa missão é originalizar seu equipamento com produtos oficiais. Suporte durante todo o dia e garantia contra mau funcionamento de 12 meses em todos nossos produtos.
+                        Sou o Bruno Holanda! Fornecedor de tecnologia, software e sistemas. Dou 100% de garantia do funcionamento dos produtos ou seu dinheiro de volta. Temos produtos vitais e anuais, enviamos de forma digital por e-mail, acompanhando: nota fiscal, licença original, link oficial de download e o passo a passo de validação. Nossa missão é originalizar seu equipamento com produtos oficiais. Suporte durante todo o dia e garantia contra mau funcionamento de 12 meses em todos nossos produtos.
                     </p>
                 </div>
-                <div className="payment-security">
+                <div className="payment-security"> 
                     <h3>FORMAS DE PAGAMENTO</h3>
                     <div className="payment-icons">
                         <img src={visaLogo} alt="Visa" />

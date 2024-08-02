@@ -9,9 +9,6 @@ export default function Header() {
             <div className="top-nav">
                 <div className="menu-links">
                     <Link to="/">Home</Link>
-                    <Link to="/windows">Windows</Link>
-                    <Link to="/office">Office</Link>
-                    <Link to="/anti-virus">Anti Virus</Link>
                     <Link to="/giveaways" className="highlighted">Giveaways</Link>
                 </div>
                 <div className="logo">
@@ -27,14 +24,11 @@ export default function Header() {
                 </div>
             </div>
             <div className="bottom-nav">
-                <Link to="/steam-games">Steam Games</Link>
-                <Link to="/xbox-games">Xbox Games</Link>
-                <Link to="/software">Software</Link>
-                <Link to="/gift-cards">Gift Cards</Link>
-                <Link to="/others">Others</Link>
-                <Link to="/contact-us">Contact Us</Link>
-                <Link to="/affiliate-program">Affiliate Program</Link>
-                <Link to="/wholesale" className="highlighted">Wholesale</Link>
+                <Link to="/windows">Windows</Link>
+                <Link to="/office">Office</Link>
+                <Link to="/anti-virus">Antivírus</Link>
+                <Link to="/outros"> + Software</Link>
+                <Link to="/contact">Contato</Link>
             </div>
         </S.Header>
     );

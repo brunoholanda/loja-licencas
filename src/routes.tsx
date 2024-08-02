@@ -1,6 +1,7 @@
 import { useEffect, lazy, Suspense, useState } from 'react';
 import { Route, Routes, useLocation, HashRouter, Navigate } from 'react-router-dom';
 import Loading from './Components/Loading';
+import ProductDetail from './Pages/ProductPage';
 
 const Home = lazy(() => import('./Pages/Home'));
 const NotFound = lazy(() => import('./Pages/404'));
@@ -36,6 +37,8 @@ function AppRoutes() {
         <Routes>
           <Route path="/" element={<PageBody />}>
             <Route index element={<Home />} />
+            <Route path='/windows-11-pro-details' element={<ProductDetail />} />
+
             <Route
               path="/operador"
               element={
